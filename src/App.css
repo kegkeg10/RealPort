@@ -304,9 +304,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-image: url('./assets/img/backy2.jpg');
 }
 .skill-bx {
-  background: #2c2c2c;
+  background: linear-gradient(90.21deg, #1c1919 -5.91%, #0a0a0a 111.58%);
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -344,7 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background: linear-gradient(90.21deg, #28006e -5.91%, #3d0a01 111.58%);
 }
 .project h2 {
 	font-size: 45px;

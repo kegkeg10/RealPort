@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
+import naruto from '../assets/img/narutoramen.png'
 import { useForm } from "react-hook-form";
 
 export const Contact = () => {
@@ -24,7 +25,7 @@ return (
         <Container>
             <Row className="align-items-center">
             <Col md={6}>
-                <img src={contactImg} alt="Contact" />
+                <img src={naruto} alt="Contact" />
             </Col>
             <Col md={6}>
                 <form 

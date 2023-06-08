@@ -116,10 +116,11 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    margin-top: 20px
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -131,10 +132,10 @@ span.navbar-text {
 }
 .social-icon a::before {
     content: "";
-    width: 42px;
-    height: 42px;
+    width: 52px;
+    height: 52px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #ffdede;
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -619,5 +620,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .namer {
-  color: rgb(114, 255, 246);
+  color: rgb(76, 255, 243);
 }

@@ -13,6 +13,9 @@ import dino from '../assets/img/JobEleven.png'
 import hangman from '../assets/img/hangy.png'
 import floppy from '../assets/img/flappy.png'
 import ping from '../assets/img/ping.png'
+import quiz from '../assets/img/quiznick.png'
+import connect from '../assets/img/connectfour.png'
+import movie from '../assets/img/moviereact.png'
 
 
 export const Projects = () => {
@@ -23,7 +26,7 @@ export const Projects = () => {
             description: "An ECOM store Using React",
             imgUrl: Comfy,
             githubUrl: "https://github.com/kegkeg10/Comfy-Store-React",
-            websiteUrl: "https://ecomreactcomfy.netlify.appr",
+            websiteUrl: "https://ecomreactcomfy.netlify.app",
         },
         {
             title: "ProShop",
@@ -31,10 +34,7 @@ export const Projects = () => {
             imgUrl: Proshop,
             githubUrl: "https://github.com/kegkeg10/ProShop",
             websiteUrl: "https://nickshop.onrender.com",
-        },     
-    ];
-
-    const projecttwo = [
+        },
         {
             title: "Jobster",
             description: "A React App that U track the jobs you applied for",
@@ -42,6 +42,23 @@ export const Projects = () => {
             githubUrl: "https://github.com/example/jobster",
             websiteUrl: "https://jobsterproject.netlify.app",
         },
+        {
+            title: "quiz",
+            description: "A React quiz",
+            imgUrl: quiz,
+            githubUrl: "https://github.com/kegkeg10/All-Genre-quizes",
+            websiteUrl: "https://nickquizappp.netlify.app",
+        },          
+        {
+            title: "Note App",
+            description: "A Note App using React with a dark or light mode toggle",
+            imgUrl: Note,
+            githubUrl: "https://github.com/kegkeg10/Note-taking-app",
+            websiteUrl: "https://nicknoteapp.netlify.app",
+        },        
+    ];
+
+    const projecttwo = [
         {
             title: "Weather App",
             description: "Weather App using React",
@@ -57,11 +74,18 @@ export const Projects = () => {
             websiteUrl: "https://nicmenureact.netlify.app",
         },  
         {
-            title: "Note App",
-            description: "A Note App using React with a dark or light mode toggle",
-            imgUrl: Note,
+            title: "Movie app",
+            description: "A Movie app",
+            imgUrl: movie,
             githubUrl: "https://github.com/kegkeg10/Note-taking-app",
             websiteUrl: "https://nicknoteapp.netlify.app",
+        }, 
+        {
+            title: "Connect Four",
+            description: "Connect Four app using javascript",
+            imgUrl: movie,
+            githubUrl: "https://github.com/kegkeg10/Connect-4",
+            websiteUrl: "coonectfournick.netlify.app",
         }, 
     ]
     const projectthree = [
@@ -118,13 +142,13 @@ export const Projects = () => {
                         <Tab.Container id="projects-tab" defaultActiveKey='first'>
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey='first'>Ecommerce Stores</Nav.Link>
+                                    <Nav.Link eventKey='first'>Projects 1</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey='second'>React Apps</Nav.Link>
+                                    <Nav.Link eventKey='second'>Projects 2</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey='third'>Game Projects</Nav.Link>
+                                    <Nav.Link eventKey='third'>Projects 3</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content>

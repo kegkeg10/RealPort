@@ -78,14 +78,14 @@ export const Projects = () => {
             description: "A Movie app",
             imgUrl: movie,
             githubUrl: "https://github.com/kegkeg10/Note-taking-app",
-            websiteUrl: "https://nicknoteapp.netlify.app",
+            websiteUrl: "https://nickmovieto.netlify.app/",
         }, 
         {
             title: "Connect Four",
             description: "Connect Four app using javascript",
             imgUrl: movie,
             githubUrl: "https://github.com/kegkeg10/Connect-4",
-            websiteUrl: "coonectfournick.netlify.app",
+            websiteUrl: "https://coonectfournick.netlify.app/",
         }, 
     ]
     const projectthree = [
